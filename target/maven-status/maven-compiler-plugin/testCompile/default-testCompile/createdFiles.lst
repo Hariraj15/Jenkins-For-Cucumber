@@ -1,0 +1,10 @@
+com\objectrepository\AddCustomerPojo.class
+com\stepdefinition\NewCustomerSteps.class
+com\stepdefinition\OneTariff.class
+com\stepdefinition\TestRunner1.class
+com\resources\FunctionalLibrary.class
+com\stepdefinition\TwoTariff.class
+com\stepdefinition\TestReRun.class
+com\stepdefinition\Hook.class
+com\stepdefinition\TwoCustomer.class
+com\objectrepository\Homepage.class

@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11955468100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "New Customer flow",
+        "description": "",
+        "id": "customer-flow;new-customer-flow",
+        "after": [
+          {
+            "result": {
+              "duration": 771600800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3611575000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on add customer button",
+            "match": {
+              "location": "NewCustomerSteps.user_click_on_add_customer_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5098239600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter all the fields with valid data",
+            "match": {
+              "location": "NewCustomerSteps.user_should_enter_all_the_fields_with_valid_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1872224800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on submit button",
+            "match": {
+              "location": "NewCustomerSteps.user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114128900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user customer id is generated and displayed",
+            "match": {
+              "location": "NewCustomerSteps.user_customer_id_is_generated_and_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Customer flow",
+    "description": "",
+    "id": "customer-flow",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/DemoCustomerAdd.feature",
+    "tags": []
+  }
+]
